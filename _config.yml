@@ -7,21 +7,21 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Jiayi Fu / M.S. student"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Jiayi Fu"
+description              : &description "A NLP researcher"
+url                      : https://poruna-byte.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "https://github.com/PorUna-byte/PorUna-byte.github.io"
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  name             : "Jiayi Fu"
+  avatar           : "profile.jpg"
+  bio              : "M.S. student in Fudan University"
   pronouns         : # example: "she/her"
-  location         : "Location"
+  location         : "Shanghai"
   orcid            : "http://orcid.org/yourorcidurl"
   employer         :
   email            :  
@@ -39,7 +39,7 @@ author:
   facebook         :
   flickr           :
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/PorUna-byte"
   goodreads        :
   google_plus      :
   keybase          :
@@ -55,7 +55,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/AlfonsoGerard_"
   vine             :
   weibo            :
   wikipedia        :
