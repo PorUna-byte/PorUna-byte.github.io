@@ -18,18 +18,18 @@ repository               : "https://github.com/PorUna-byte/PorUna-byte.github.io
 # Site Author
 author:
   name             : "Jiayi Fu"
-  avatar           : "profile.jpg"
+  avatar           : "Me/profile.jpg"
   bio              : "M.S. student in Fudan University"
   pronouns         : # example: "she/her"
   location         : "Shanghai"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   employer         :
   email            :  
   uri              :
 
   # Manuscript repositories
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"         # Update with the correct link to your profile
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : ""        # Update with the correct link to your profile
+  pubmed           : ""
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
 
   # Social media
@@ -48,7 +48,7 @@ author:
   lastfm           :
   linkedin         :
   kaggle           : # "kaggleusername"
-  mastodon         : "mastodonhandle"
+  mastodon         : ""
   medium           : # "add medium profile url here"
   pinterest        :
   soundcloud       :
@@ -269,7 +269,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: China/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

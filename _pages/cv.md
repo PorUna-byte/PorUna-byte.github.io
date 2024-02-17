@@ -31,9 +31,6 @@ Skills
 ======
 * Academic Writing
 * Coding
-  <!-- * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3 -->
 * Football
 
 <!-- Publications

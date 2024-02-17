@@ -8,3 +8,9 @@ redirect_from:
 ---
 
 An NLP researcher at Fudan University and an enthusiast of professional football in the Premier League.
+
+#News
+
+##2024-02-16
+I create this HomePage
+

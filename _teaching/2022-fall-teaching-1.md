@@ -1,5 +1,5 @@
 ---
-title: "Teacher assistant for operating system"
+title: "Operating System"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-fall-teaching-1
