@@ -28,7 +28,7 @@ author:
   uri              :
 
   # Manuscript repositories
-  googlescholar    : ""        # Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=V2QlLjkAAAAJ"
   pubmed           : ""
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
 

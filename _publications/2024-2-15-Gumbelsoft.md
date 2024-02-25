@@ -5,7 +5,7 @@ permalink: /publication/2024-02-15
 excerpt: ''
 date: 2024-02-15
 venue: 'February 15'
-paperurl: 'https://openreview.net/forum?id=RrTu0rmTC8'
+paperurl: 'https://arxiv.org/abs/2402.12948'
 citation: ''
 ---
-[Download paper here](https://poruna-byte.github.io/files/GumbelSoft_watermark.pdf)
+[Download paper here](https://poruna-byte.github.io/files/Gumbelsoft.pdf)
