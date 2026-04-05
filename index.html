@@ -272,36 +272,33 @@
         <div class="grid two-col map-layout">
           <article class="card reveal map-card">
             <div class="map-shell" id="visitor-map-shell">
-              <div class="widget-slot" id="visitor-widget-slot" aria-live="polite">
-                <div class="globe-scale-frame">
-                  <div class="globe-widget-host">
-                    <script
-                      type="text/javascript"
-                      id="mmvst_globe"
-                      src="https://mapmyvisitors.com/globe.js?d=adSI4VDrvUP286K7N6gP07-ixiEvtLIEP1kvClsZlxY">
-                    </script>
-                  </div>
+              <div class="widget-slot flat-map-frame" id="visitor-widget-slot" aria-live="polite">
+                <div class="flat-map-host">
+                  <script
+                    type="text/javascript"
+                    id="mapmyvisitors"
+                    src="https://mapmyvisitors.com/map.js?d=41xJ3oyi-RZf60DulB3OkoZ527FY2OH_yRQUajaTy1I&cl=ffffff&w=a">
+                  </script>
                 </div>
               </div>
             </div>
           </article>
 
           <article class="card reveal delay-1">
-            <h3>Visitor Globe</h3>
+            <h3>Visitor Map</h3>
             <ol class="clean-list numbered">
-              <li>The globe is now directly embedded with your MapMyVisitors widget.</li>
-              <li>No extra setup in <code>script.js</code> is required anymore.</li>
-              <li>If the globe appears blank, test in an incognito window or disable ad blockers.</li>
-              <li>After deployment, wait a little for the widget to start showing visits.</li>
+              <li>This section now uses the flat MapMyVisitors map instead of the globe widget.</li>
+              <li>The map is embedded directly in <code>index.html</code>.</li>
+              <li>No extra setup in <code>script.js</code> is required.</li>
+              <li>If it still looks blank, test in an incognito window or disable ad blockers.</li>
             </ol>
 
             <p class="media-note">
-              This section now uses the MapMyVisitors globe widget over HTTPS for more reliable
-              loading on GitHub Pages.
+              The flat map version is usually more stable than the globe widget on static GitHub Pages sites.
             </p>
 
-<pre class="code-block"><code>&lt;script type="text/javascript" id="mmvst_globe"
-  src="https://mapmyvisitors.com/globe.js?d=adSI4VDrvUP286K7N6gP07-ixiEvtLIEP1kvClsZlxY"&gt;&lt;/script&gt;</code></pre>
+<pre class="code-block"><code>&lt;script type="text/javascript" id="mapmyvisitors"
+  src="https://mapmyvisitors.com/map.js?d=41xJ3oyi-RZf60DulB3OkoZ527FY2OH_yRQUajaTy1I&amp;cl=ffffff&amp;w=a"&gt;&lt;/script&gt;</code></pre>
           </article>
         </div>
       </section>

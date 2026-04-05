@@ -502,14 +502,6 @@ audio {
     flex-direction: column;
     align-items: flex-start;
   }
-
-  .globe-scale-frame {
-    height: 650px;
-  }
-
-  .globe-widget-host {
-    transform: translateY(-6px) scale(0.64);
-  }
 }
 
 @media (max-width: 760px) {
@@ -550,12 +542,9 @@ audio {
     padding: 16px 12px 4px;
   }
 
-  .globe-scale-frame {
-    height: 430px;
-  }
-
-  .globe-widget-host {
-    transform: translateY(-4px) scale(0.44);
+  .flat-map-frame {
+    min-height: 300px;
+    padding: 12px;
   }
 
   .map-placeholder {
@@ -573,7 +562,7 @@ audio {
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 26px 26px 10px;
+  padding: 24px;
   overflow: hidden;
 }
 
@@ -587,33 +576,31 @@ audio {
   box-shadow: none;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 #visitor-widget-slot {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
 }
 
-.globe-scale-frame {
+.flat-map-frame {
   width: 100%;
-  max-width: 1180px;
-  height: 760px;
+  min-height: 420px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 20px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  overflow: hidden;
+  align-items: center;
 }
 
-.globe-widget-host {
-  width: max-content;
+.flat-map-host {
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  transform: translateY(-8px) scale(0.72);
-  transform-origin: top center;
+  align-items: center;
+  text-align: center;
 }
 
 #visitor-widget-slot iframe,
@@ -621,9 +608,9 @@ audio {
 #visitor-widget-slot svg,
 #visitor-widget-slot img {
   display: block;
-  width: auto !important;
+  max-width: 100% !important;
   height: auto !important;
-  max-width: none !important;
+  margin-inline: auto;
 }
 
 .map-placeholder {
